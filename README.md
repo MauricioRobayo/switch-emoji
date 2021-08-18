@@ -29,7 +29,7 @@ export default function SomeComponent() {
 }
 ```
 
-Read the [Documentation](https://www.mauriciorobayo.com/switch-emoji)
+Read the [Documentation](https://www.mauriciorobayo.com/switch-emoji).
 
 ## TypeScript
 
