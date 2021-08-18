@@ -9,7 +9,6 @@ const sources = {
 type Props = {
   emoji: string;
   height?: string;
-  width?: string;
   className?: string;
   source?: keyof typeof sources;
 };
@@ -17,7 +16,6 @@ export function Semoji({
   emoji,
   className = "",
   height = "1em",
-  width = "auto",
   source = "Twitter",
 }: Props): JSX.Element | null {
   const unicode = emoji.codePointAt(0)?.toString(16);
@@ -29,12 +27,10 @@ export function Semoji({
   return (
     <div style={{ lineHeight: 0 }}>
       <img
-        style={{ display: "inline-block", height, width }}
+        style={{ display: "inline-block", height }}
         alt={emoji}
         className={className}
-        height={height}
         src={sources[source].replace(placeholder, unicode)}
-        width={width}
       />
     </div>
   );
