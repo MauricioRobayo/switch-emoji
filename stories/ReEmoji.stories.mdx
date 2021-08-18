@@ -1,0 +1,74 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs";
+import { Semoji } from "../src/Semoji";
+
+<Meta title="Reamoji" component={Semoji} />
+
+export const Template = (args) => <Semoji {...args} />;
+
+# Reamoji
+
+[![Reamoji](https://badgen.net/npm/v/reamoji)](https://www.npmjs.com/package/reamoji)
+[![CI](https://github.com/MauricioRobayo/reamoji/actions/workflows/main.yml/badge.svg)](https://github.com/MauricioRobayo/reamoji/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/MauricioRobayo/reamoji/branch/main/graph/badge.svg?token=gkrRmHZHGB)](https://codecov.io/gh/MauricioRobayo/reamoji)
+[![CodeFactor](https://www.codefactor.io/repository/github/mauriciorobayo/reamoji/badge)](https://www.codefactor.io/repository/github/mauriciorobayo/reamoji)
+[![bundlephobia](https://badgen.net/bundlephobia/minzip/reamoji)](https://bundlephobia.com/package/reamoji)
+
+**Switchable Twitter/GitHub emojis**.
+
+## Installation
+
+```sh
+npm install --save reamoji
+```
+
+## Usage
+
+```js
+import { Reamoji } from "reamoji";
+
+export default function SomeComponent() {
+  return <Reamoji emoji="💃" source="GitHub" />;
+}
+```
+
+## Props
+
+<ArgsTable />
+
+## Examples
+
+Inspect the element without hovering or focusing on it to see what's actually rendered:
+
+<Canvas>
+  <Story
+    name="Twitter"
+    args={{
+      emoji: "🚀",
+      source: "Twitter",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+  <Story
+    name="GitHub"
+    args={{
+      emoji: "🚀",
+      source: "GitHub",
+      height: "1.25em",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## TypeScript
+
+The component is written in TypeScript and type definitions are included.
+
+## Acknowledgements
+
+This is an [open-source](https://github.com/MauricioRobayo/reamoji) project, all contributions are welcome and highly appreciated.
+
+## License
+
+[MIT](https://github.com/MauricioRobayo/reamoji/blob/main/LICENSE)
