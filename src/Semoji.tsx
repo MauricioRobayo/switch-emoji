@@ -1,9 +1,9 @@
 import React, { memo } from "react";
 
+const placeholder = "{unicode}";
 const sources = {
-  GitHub:
-    "https://github.githubassets.com/images/icons/emoji/unicode/{unicode}.png?v8",
-  Twitter: "https://twemoji.maxcdn.com/v/latest/svg/{unicode}.svg",
+  GitHub: `https://github.githubassets.com/images/icons/emoji/unicode/${placeholder}.png?v8`,
+  Twitter: `https://twemoji.maxcdn.com/v/latest/svg/${placeholder}.svg`,
 };
 
 type Props = {
@@ -33,7 +33,7 @@ export function Semoji({
         alt={emoji}
         className={className}
         height={height}
-        src={sources[source].replace("{unicode}", unicode)}
+        src={sources[source].replace(placeholder, unicode)}
         width={width}
       />
     </div>
