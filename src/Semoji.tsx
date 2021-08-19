@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 
 const placeholder = "{unicode}";
 const sources = {
@@ -36,4 +36,4 @@ export function Semoji({
   );
 }
 
-export default memo(Semoji);
+export default Semoji;
