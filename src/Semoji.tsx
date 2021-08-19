@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 const placeholder = "{unicode}";
 const sources = {
@@ -25,15 +25,15 @@ export function Semoji({
   }
 
   return (
-    <div style={{ lineHeight: 0 }}>
+    <span style={{ lineHeight: 0 }}>
       <img
-        style={{ display: "inline-block", height }}
         alt={emoji}
         className={className}
         src={sources[source].replace(placeholder, unicode)}
+        style={{ display: "inline-block", height }}
       />
-    </div>
+    </span>
   );
 }
 
-export default Semoji;
+export default memo(Semoji);
