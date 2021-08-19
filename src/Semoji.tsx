@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 
 const placeholder = "{unicode}";
 const sources = {
@@ -7,16 +7,16 @@ const sources = {
 };
 
 type Props = {
+  className?: string;
   emoji: string;
   height?: string;
-  className?: string;
-  source?: keyof typeof sources;
+  source: keyof typeof sources;
 };
 export function Semoji({
-  emoji,
   className = "",
+  emoji,
   height = "1em",
-  source = "Twitter",
+  source,
 }: Props): JSX.Element | null {
   const unicode = emoji.codePointAt(0)?.toString(16);
 
@@ -36,4 +36,4 @@ export function Semoji({
   );
 }
 
-export default memo(Semoji);
+export default Semoji;
