@@ -29,7 +29,7 @@ export default function Emoji(props) {
 }
 ```
 
-Read the [Documentation 📘](https://www.mauriciorobayo.com/switch-emoji?nav=false).
+Read the [documentation 📘](https://www.mauriciorobayo.com/switch-emoji?nav=false).
 
 ## TypeScript
 
