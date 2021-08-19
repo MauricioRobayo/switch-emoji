@@ -9,7 +9,7 @@ addons.setConfig({
     fullscreen: { hidden: true },
   },
   theme: create({
-    base: "light",
+    base: "dark",
     brandTitle: "ReEmoji",
     brandUrl: "https://github.com/MauricioRobayo/re-emoji",
   }),
