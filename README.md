@@ -24,7 +24,7 @@ npm install --save switch-emoji
 ```js
 import { Semoji } from "switch-emoji";
 
-export default function GHEmoji(props) {
+export default function GitHubEmoji(props) {
   return <Semoji {...props} source="GitHub" />;
 }
 ```
