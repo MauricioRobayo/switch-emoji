@@ -8,10 +8,12 @@
 
 **Switchable Twitter/GitHub emojis**.
 
-| Source  | Emoji                                                                                                                             |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| GitHub  | <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f483.png?v8" height="16" width="auto" title="GitHub emoji"> |
-| Twitter | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f483.svg" height="16" width="auto" title="Twitter emoji">                      |
+| GitHub                                                                                                                            | Twitter                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f483.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f483.svg" height="16" width="auto" title="Twitter emoji"> |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f386.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f386.svg" height="16" width="auto" title="Twitter emoji"> |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f389.svg" height="16" width="auto" title="Twitter emoji"> |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52b.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f52b.svg" height="16" width="auto" title="Twitter emoji"> |
 
 ## Installation
 
@@ -24,8 +26,23 @@ npm install --save switch-emoji
 ```js
 import { Semoji } from "switch-emoji";
 
-export default function Emoji(props) {
-  return <Semoji {...props} source="GitHub" />;
+export function SomeComponent() {
+  return <Semoji emoji="👋" source="GitHub" />;
+}
+```
+
+## Twemoji
+
+You can wrap `Semoji` to create you own `Twemoji` React component:
+
+```ts
+import React from "react";
+import { Semoji, SemojiProps } from "switch-emoji";
+
+type Props = Omit<SemojiProps, "source">;
+
+export function Twemoji(props: Props): JSX.Element {
+  return <Semoji {...props} source="Twitter" />;
 }
 ```
 
