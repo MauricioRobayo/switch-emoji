@@ -6,7 +6,7 @@ const sources = {
   Twitter: `https://twemoji.maxcdn.com/v/latest/svg/${placeholder}.svg`,
 };
 
-type Props = {
+export type SemojiProps = {
   className?: string;
   emoji: string;
   height?: string;
@@ -17,7 +17,7 @@ export function Semoji({
   emoji,
   height = "1em",
   source,
-}: Props): JSX.Element | null {
+}: SemojiProps): JSX.Element | null {
   const unicode = emoji.codePointAt(0)?.toString(16);
 
   if (!unicode) {
