@@ -41,7 +41,7 @@ import { Semoji, SemojiProps } from "switch-emoji";
 
 type Props = Omit<SemojiProps, "source">;
 
-export function Twemoji(props: Props): JSX.Element {
+export function Twemoji(props: Props): JSX.Element | null {
   return <Semoji {...props} source="Twitter" />;
 }
 ```
