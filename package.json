@@ -25,7 +25,8 @@
     "react",
     "emoji",
     "twitter",
-    "github"
+    "github",
+    "twemoji"
   ],
   "name": "switch-emoji",
   "author": "Mauricio Robayo",
