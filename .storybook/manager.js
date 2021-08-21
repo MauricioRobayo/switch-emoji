@@ -4,7 +4,6 @@ import { create } from "@storybook/theming";
 addons.setConfig({
   showNav: false,
   toolbar: {
-    zoom: { hidden: true },
     eject: { hidden: true },
     fullscreen: { hidden: true },
   },
