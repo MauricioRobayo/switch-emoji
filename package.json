@@ -54,9 +54,6 @@
     "tslib": "^2.3.1",
     "typescript": "^4.3.5"
   },
-  "optionalDependencies": {
-    "fsevents": "^2.3.2"
-  },
   "description": "[![Semoji](https://badgen.net/npm/v/switch-emoji)](https://www.npmjs.com/package/switch-emoji) [![CI](https://github.com/MauricioRobayo/switch-emoji/actions/workflows/main.yml/badge.svg)](https://github.com/MauricioRobayo/switch-emoji/actions/workflows/main.yml) [![codecov](https://codecov.io/gh/MauricioRobayo/switch-emoji/branch/main/graph/badge.svg?token=gkrRmHZHGB)](https://codecov.io/gh/MauricioRobayo/switch-emoji) [![CodeFactor](https://www.codefactor.io/repository/github/mauriciorobayo/switch-emoji/badge)](https://www.codefactor.io/repository/github/mauriciorobayo/switch-emoji) [![bundlephobia](https://badgen.net/bundlephobia/minzip/switch-emoji)](https://bundlephobia.com/package/switch-emoji)",
   "directories": {
     "doc": "docs"
