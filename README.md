@@ -8,12 +8,12 @@
 
 **Switchable Twitter/GitHub emojis**.
 
-| GitHub                                                                                                                            | Twitter                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f483.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f483.svg" height="16" width="auto" title="Twitter emoji"> |
-| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f386.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f386.svg" height="16" width="auto" title="Twitter emoji"> |
-| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f389.svg" height="16" width="auto" title="Twitter emoji"> |
-| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52b.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f52b.svg" height="16" width="auto" title="Twitter emoji"> |
+| GitHub                                                                                                                            | Twitter                                                                                                      | OpenMoji                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f483.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f483.svg" height="16" width="auto" title="Twitter emoji"> | <img src="https://www.openmoji.org/data/color/svg/1F483.svg" height="16" width="auto" title="Twitter emoji"> |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f386.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f386.svg" height="16" width="auto" title="Twitter emoji"> | <img src="https://www.openmoji.org/data/color/svg/1F386.svg" height="16" width="auto" title="Twitter emoji"> |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f389.svg" height="16" width="auto" title="Twitter emoji"> | <img src="https://www.openmoji.org/data/color/svg/1F389.svg" height="16" width="auto" title="Twitter emoji"> |
+| <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52b.png?v8" height="16" width="auto" title="GitHub emoji"> | <img src="https://twemoji.maxcdn.com/v/latest/svg/1f52b.svg" height="16" width="auto" title="Twitter emoji"> | <img src="https://www.openmoji.org/data/color/svg/1F52B.svg" height="16" width="auto" title="Twitter emoji"> |
 
 ## Installation
 
