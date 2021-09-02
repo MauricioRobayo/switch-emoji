@@ -2,9 +2,18 @@ import React from "react";
 
 const placeholder = "{unicode}";
 const sources = {
-  GitHub: `https://github.githubassets.com/images/icons/emoji/unicode/${placeholder}.png?v8`,
-  Twitter: `https://twemoji.maxcdn.com/v/latest/svg/${placeholder}.svg`,
-  OpenMoji: `https://www.openmoji.org/data/color/svg/${placeholder}.svg`,
+  GitHub: {
+    src: `https://github.githubassets.com/images/icons/emoji/unicode/${placeholder}.png?v8`,
+    upperCase: false,
+  },
+  Twitter: {
+    src: `https://twemoji.maxcdn.com/v/latest/svg/${placeholder}.svg`,
+    upperCase: false,
+  },
+  OpenMoji: {
+    src: `https://www.openmoji.org/data/color/svg/${placeholder}.svg`,
+    upperCase: true,
+  },
 };
 
 export type SemojiProps = {
@@ -25,12 +34,17 @@ export function Semoji({
     return null;
   }
 
+  const { src, upperCase } = sources[source];
+
   return (
     <span style={{ lineHeight: 0 }}>
       <img
         alt={emoji}
         className={className}
-        src={sources[source].replace(placeholder, unicode)}
+        src={src.replace(
+          placeholder,
+          upperCase ? unicode.toUpperCase() : unicode
+        )}
         style={{ display: "inline-block", height }}
       />
     </span>
