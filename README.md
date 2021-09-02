@@ -6,7 +6,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/mauriciorobayo/switch-emoji/badge)](https://www.codefactor.io/repository/github/mauriciorobayo/switch-emoji)
 [![bundlephobia](https://badgen.net/bundlephobia/minzip/switch-emoji)](https://bundlephobia.com/package/switch-emoji)
 
-**Switchable Twitter/GitHub emojis**.
+**Consistent emojis accross devices.**
+
+Choose your emoji flavor from [Twemoji](https://github.com/twitter/twemoji), [GitHub emojis](https://api.github.com/emojis), or [OpenMoji](https://www.openmoji.org/).
 
 | GitHub                                                                                                                            | Twitter                                                                                                      | OpenMoji                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -31,9 +33,7 @@ export function SomeComponent() {
 }
 ```
 
-## Twemoji
-
-You can wrap `Semoji` to create you own `Twemoji` React component:
+You can wrap `Semoji` to create you own `Emoji` React component with your flavor of choice:
 
 ```ts
 import React from "react";
@@ -41,7 +41,7 @@ import { Semoji, SemojiProps } from "switch-emoji";
 
 type Props = Omit<SemojiProps, "source">;
 
-export function Twemoji(props: Props): JSX.Element | null {
+export function Emoji(props: Props): JSX.Element | null {
   return <Semoji {...props} source="Twitter" />;
 }
 ```
