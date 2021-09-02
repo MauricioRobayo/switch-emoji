@@ -6,7 +6,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/mauriciorobayo/switch-emoji/badge)](https://www.codefactor.io/repository/github/mauriciorobayo/switch-emoji)
 [![bundlephobia](https://badgen.net/bundlephobia/minzip/switch-emoji)](https://bundlephobia.com/package/switch-emoji)
 
-**Consistent emojis accross devices.**
+**Consistent emojis across devices.**
 
 Choose your emoji flavor from [Twemoji](https://github.com/twitter/twemoji), [GitHub emojis](https://api.github.com/emojis), or [OpenMoji](https://www.openmoji.org/).
 
