@@ -4,6 +4,7 @@ const placeholder = "{unicode}";
 const sources = {
   GitHub: `https://github.githubassets.com/images/icons/emoji/unicode/${placeholder}.png?v8`,
   Twitter: `https://twemoji.maxcdn.com/v/latest/svg/${placeholder}.svg`,
+  OpenMoji: `https://www.openmoji.org/data/color/svg/${placeholder}.svg`,
 };
 
 export type SemojiProps = {
