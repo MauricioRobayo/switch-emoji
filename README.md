@@ -1,6 +1,8 @@
 # Switch Emoji 💃
 
-Deprecated in favor of [svg-emojis](https://github.com/MauricioRobayo/svg-emojis).
+**No longer mantained. Consider using [svg-emojis](https://github.com/MauricioRobayo/svg-emojis).**
+
+---
 
 [![Semoji](https://badgen.net/npm/v/switch-emoji)](https://www.npmjs.com/package/switch-emoji)
 [![CI](https://github.com/MauricioRobayo/switch-emoji/actions/workflows/main.yml/badge.svg)](https://github.com/MauricioRobayo/switch-emoji/actions/workflows/main.yml)
